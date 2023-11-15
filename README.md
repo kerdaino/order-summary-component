@@ -49,8 +49,8 @@ Hoping to add more interactive functionality with js in future
 
 - Website - [Tobi Adekunle](https://kerdaino.github.io/portfolio/)
 - Frontend Mentor - [@kerdaino](https://www.frontendmentor.io/profile/kerdaino)
-- Twitter - [@ykdevglobal](https://www.twitter.com/kdevglobal)
-- Linkedin - https://www.linkedin.com/in/oluwatobiadekunle/
+- Twitter - [@kdevsglobal](https://www.twitter.com/kdevsglobal)
+- Linkedin - [@oluwatobiadekunle](https://www.linkedin.com/in/oluwatobiadekunle/)
 
 ## Acknowledgments
 
