@@ -1,14 +1,16 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+/* Reset and Global Styles */
 * {
-    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font: inherit;
-}
-
-body {
+  }
+  
+  /* Body Styles */
+  body {
     background: url(../images/pattern-background-mobile.svg) no-repeat;
     background-size: contain;
     display: grid;
@@ -17,48 +19,53 @@ body {
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
-}
-
-main{
-    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Main Container Styles */
+  main {
     border-radius: 15px;
-    margin: auto;
     background: white;
-}
-
-header {
+    box-shadow: 0px 15px 15px -15px #000000;
+  }
+  
+  /* Header Styles */
+  header {
     padding: 0;
-}
-
-header img {
+  }
+  
+  header img {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
-}
-
-.content{
+  }
+  
+  /* Content Section Styles */
+  .content {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
-}
-
-.first {
+  }
+  
+  /* First Section Styles */
+  .first {
     margin: 20px;
-}
-
-.first h1{
+  }
+  
+  .first h1 {
     font-weight: 900;
     font-size: 20px;
     margin: 15px;
     color: hsl(223, 47%, 23%);
-}
-
-p{
+  }
+  
+  p {
     color: hsl(224, 23%, 55%);
-}
-
-.second{
+  }
+  
+  /* Second Section Styles */
+  .second {
     display: flex;
     align-items: center;
     background: hsl(225, 100%, 98%);
@@ -67,65 +74,99 @@ p{
     border-radius: 10px;
     padding: 15px;
     margin: 20px 0;
-}
-
-.full-side{
+  }
+  
+  .full-side {
     display: flex;
     align-items: center;
-}
-
-.side{
+  }
+  
+  .side {
     margin-left: 15px;
-}
-
-.side h2{
+  }
+  
+  .side h2 {
     color: hsl(223, 47%, 23%);
     font-weight: 900;
     margin-bottom: 5px;
-}
-
-.second button{
+  }
+  
+  .second button {
     background: none;
     border: none;
-}
-
-.second button a{
+  }
+  
+  .second button a {
     color: hsl(245, 75%, 52%);
-}
-
-#text{
+  }
+  
+  /* Buttons Styles */
+  .text {
     width: 90%;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     border: none;
     font-weight: 600;
-}
-
-.payment{
+  }
+  
+  .payment {
     background: hsl(245, 75%, 52%);
-    color: white;
-}
-
-.cancel{
+    color: hsl(225, 100%, 98%);
+  }
+  
+  .cancel {
     background: none;
     color: hsl(224, 23%, 55%);
-}
-
-.attribution {
-    margin: 10px;
+  }
+  
+  /* Button Hover, Active, and Focus Styles */
+  button a:hover,
+  button a:active,
+  button a:focus {
+    cursor: pointer;
+    color: hsla(245, 75%, 52%, 0.7);
+    text-decoration: none;
+  }
+  
+  .payment:hover,
+  .payment:active,
+  .payment:focus {
+    cursor: pointer;
+    background: hsla(245, 75%, 52%, 0.7);
+    box-shadow: 0px 15px 15px -15px #000000;
+  }
+  
+  .cancel:hover,
+  .cancel:active,
+  .cancel:focus {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+  }
+  
+  /* Attribution Section Styles */
+  .attribution {
+    margin-top: 20px;
     font-size: 16px;
     text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-@media screen and (min-width: 376px) {
-    body{
-        background: url(../images/pattern-background-desktop.svg) no-repeat;
-        background-size: contain;
-        background-color: hsl(225, 100%, 94%);      
-    }  
-}
+    color: hsl(223, 47%, 23%);
+  }
+  
+  .attribution a {
+    color: hsl(245, 75%, 52%);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (min-width: 600px) {
+    body {
+      background: url(../images/pattern-background-desktop.svg) no-repeat;
+      background-size: contain;
+      background-color: hsl(225, 100%, 94%);
+    }
+  
+    main {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  
